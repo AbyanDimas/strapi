@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agenda",
+  "info": {
+    "singularName": "agendaa",
+    "pluralName": "agenda",
+    "displayName": "agenda"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string"
+    },
+    "tanggal_mulai": {
+      "type": "datetime"
+    },
+    "tanggal_selesai": {
+      "type": "datetime"
+    },
+    "deskripsi": {
+      "type": "richtext"
+    },
+    "lokasi": {
+      "type": "enumeration",
+      "enum": [
+        "Aula Utama Masjid",
+        "Halaman Masjid"
+      ]
+    },
+    "tag_kegiatan": {
+      "type": "string"
+    }
+  }
+}
