@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "kegiatan_bulanans",
+  "info": {
+    "singularName": "kegiatan-bulanan",
+    "pluralName": "kegiatan-bulanans",
+    "displayName": "Kegiatan-Bulanan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jumlah": {
+      "type": "string"
+    }
+  }
+}

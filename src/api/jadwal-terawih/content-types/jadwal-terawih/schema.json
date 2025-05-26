@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jadwal_terawihs",
+  "info": {
+    "singularName": "jadwal-terawih",
+    "pluralName": "jadwal-terawihs",
+    "displayName": "Jadwal-Terawih"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tanggal": {
+      "type": "datetime"
+    },
+    "imam": {
+      "type": "string"
+    },
+    "bilal": {
+      "type": "string"
+    },
+    "khatib": {
+      "type": "string"
+    },
+    "tema": {
+      "type": "string"
+    },
+    "catatan": {
+      "type": "text"
+    }
+  }
+}

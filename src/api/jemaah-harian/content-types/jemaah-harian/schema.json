@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "jemaah_harians",
+  "info": {
+    "singularName": "jemaah-harian",
+    "pluralName": "jemaah-harians",
+    "displayName": "Jemaah-Harian"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jumlah": {
+      "type": "string"
+    }
+  }
+}

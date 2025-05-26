@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tausiyahs",
+  "info": {
+    "singularName": "tausiyah",
+    "pluralName": "tausiyahs",
+    "displayName": "Tausiyah"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string"
+    },
+    "penulis": {
+      "type": "string"
+    },
+    "tanggal": {
+      "type": "datetime"
+    },
+    "gambar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
