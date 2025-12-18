@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengumuman-pentings",
+  "info": {
+    "singularName": "pengumuman-penting",
+    "pluralName": "pengumuman-pentings",
+    "displayName": "Pengumuman Penting"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nama"
+    },
+    "deskripsi": {
+      "type": "blocks",
+      "required": true
+    },
+    "penting": {
+      "type": "boolean"
+    },
+    "tanggal": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

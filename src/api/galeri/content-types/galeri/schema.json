@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galeris",
+  "info": {
+    "singularName": "galeri",
+    "pluralName": "galeris",
+    "displayName": "Galeri"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "judul": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi": {
+      "type": "blocks"
+    },
+    "tanggal": {
+      "type": "date",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Image",
+        "Video"
+      ]
+    },
+    "gambar": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    }
+  }
+}
